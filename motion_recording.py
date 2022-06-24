@@ -18,7 +18,7 @@ from Function import preprocessing, spectral_analysis_x, spectral_analysis_y, co
 #%%
 matplotlib.use('TkAgg')
 
-##path = f\Ebner's Lab\\002-03232021144129-0000DLC_resnet50_Cerebellar_TreadmillApr29shuffle1_900000_filtered.csv"
+
 path = getfile()
 df = pd.read_csv(path)
 df1 = preprocessing(df)
